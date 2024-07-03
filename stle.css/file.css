@@ -1,0 +1,326 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav-link {
+
+    color: black;
+    font-weight: 600;
+}
+
+.navbar-brand {
+    color: black;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.carousel-item {
+    height: 500px;
+}
+
+.sub {
+    background-color: rgb(70, 63, 63);
+}
+
+.sub input {
+    height: 51px;
+    width: 50%;
+    color: black;
+    outline: none;
+    padding: 10px;
+}
+
+.btn1 {
+    height: 51px;
+    width: 50%;
+    color: white;
+    background-color: yellowgreen;
+    outline: none;
+    border: none;
+    margin-left: -2px;
+
+}
+
+.btn1:hover {
+    background-color: red;
+    color: white;
+    transition: 0.6s;
+}
+
+.fas {
+    font-size: 32px;
+}
+
+.collection span {
+    color: yellowgreen;
+    font-size: 19px;
+    font-weight: 800;
+    padding-left: 5px;
+}
+
+.card {
+    border: none;
+}
+
+.row {
+    display: flex;
+}
+
+.collection input {
+    position: absolute;
+    height: 45px;
+    width: 110px;
+    background-color: yellowgreen;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    text-align: center;
+    top: 40%;
+    left: 30%;
+    opacity: 0;
+
+}
+
+.collection .card:hover input {
+
+    opacity: 1;
+    transition: 1s;
+}
+
+.collection input:hover {
+    background-color: rgb(82, 75, 75);
+    transition: 0.5s;
+}
+
+.parallex {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../pictures/1.jpg)no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    width: 100%;
+}
+
+.parallex h1 {
+    font-size: 55px;
+    font-weight: 700;
+
+}
+
+.parallex p {
+    font-size: 22px;
+}
+
+.btn2 {
+    height: 40px;
+    width: 110px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    outline: none;
+    border-radius: 2px;
+}
+
+.btn2:hover {
+    background-color: white;
+    color: yellowgreen;
+    transition: 0.3s;
+    border: none;
+}
+
+.btn3 {
+    height: 40px;
+    width: 110px;
+    background-color: white;
+    border: none;
+    color: yellowgreen;
+    outline: none;
+    border-radius: 2px;
+}
+
+.btn3:hover {
+    background-color: rgb(47, 42, 42);
+    color: white;
+    transition: 0.3s;
+    border: none;
+    outline: none;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+@media (max-height:800px) {
+    footer {
+        position: static;
+    }
+
+    header {
+        padding-top: 40px;
+    }
+}
+
+
+.footer-distributed {
+    background-color: rgb(70, 63, 63);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 50px 50px 60px 50px;
+    margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+
+.footer-distributed .footer-left {
+    width: 30%;
+}
+
+.footer-distributed h3 {
+    color: white;
+    font: normal 36px 'Cookie', cursive;
+    margin: 0;
+}
+
+
+.footer-distributed h3 span {
+    color: yellowgreen;
+}
+
+
+
+.footer-distributed .footer-links {
+    color: white;
+    margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+    color: white;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+
+
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+
+.footer-distributed .footer-center i {
+    background-color: rgb(70, 63, 63);
+    color: white;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: white;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: yellowgreen;
+    text-decoration: none;
+
+}
+
+
+
+
+.footer-distributed .footer-right {
+    width: 30%;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: white;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    line-height: 35px;
+
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+
+@media (max-width: 880px) {
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+}
